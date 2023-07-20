@@ -43,7 +43,7 @@ const LinkTree = () => {
       <footer>
         <div
           className="linktree-footer"
-          onClick={(e) => window.open("https://spheron.network")}
+          onClick={(e) => window.open("https://arvrtise.com")}
         >
           <span className="linktree-powered-text">Powered By </span>
           <span className="sph-logo">

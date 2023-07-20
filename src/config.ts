@@ -7,19 +7,26 @@ import Discord from "./assets/icons/discord.svg";
 import GitHub from "./assets/icons/github.svg";
 import Email from "./assets/icons/email.svg";
 import TikTok from "./assets/icons/tiktok.svg";
+import NFT from "./assets/icons/nft.svg";
 
 const config = {
   logoUrl: AppLogo,
   favicon: "../favicon.ico",
   title: "Spheron Link Tree",
   description:
-    "Arvrtise your socials ",
+    "Arvrtise your socials with a link that you own.",
   links: [
     {
       key: "official",
       label: "Official Website",
       iconUrl: Official,
       redirectUrl: "https://arvrtise.com/",
+    },
+    {
+      key: "nft",
+      label: "Ads NFT Marketplace",
+      iconUrl: NFT,
+      redirectUrl: "https://ads.arvrtise.com",
     },
     {
       key: "tiktok",
