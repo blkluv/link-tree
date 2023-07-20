@@ -15,7 +15,7 @@ function App() {
         <meta name="description" content={config.description} />
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
-        <title>Spheron Link Tree</title>
+        <title>Arvrtise Link Tree</title>
       </Helmet>
       <LinkTree />
     </div>
